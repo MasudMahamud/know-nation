@@ -1,0 +1,11 @@
+.country-main{
+    border: 1px solid red;
+    width:250px;
+    text-align: center;
+    padding:10px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+.country-main img{
+    width:50px
+}
