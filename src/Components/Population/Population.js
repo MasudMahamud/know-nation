@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Population.css';
 const Population = (props) => {
     const selectedCountry = props.selectedCountry;
     // let totalPopulation = 0;
@@ -11,7 +11,7 @@ const Population = (props) => {
     const totalPopulation = selectedCountry.reduce((sum, country) => sum + country.population,0)
     return (
         <div>
-            <h4>Population:{totalPopulation}</h4>
+            <h4 className="population">Population: {totalPopulation}</h4>
         </div>
     );
 };

@@ -1,11 +1,33 @@
 .country-main{
     border: 1px solid red;
-    width:250px;
-    text-align: center;
-    padding:10px;
-    margin:auto;
-    margin-bottom: 15px;
+    width:300px;
+    padding:12px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: #5D3F81;
+    color:rgb(250, 246, 246);
+    
+    
 }
 .country-main img{
-    width:50px
+    width:70px;
+    float: left;
+    margin-top: 23px;
+}
+
+.country-flag{
+    float: left;
+}
+
+.country-info{
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+    margin-left: 20px;
+    color: rgb(218, 228, 208);
+}
+
+button{
+    margin-right: 8px;
 }
